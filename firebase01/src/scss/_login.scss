@@ -1,0 +1,222 @@
+.minus {
+    margin-left: -10px;
+    // z-index: -1;
+}
+
+.shadoww {
+
+
+
+    border-radius: 41px;
+    background: #e0e0e0;
+    box-shadow: 28px 28px 76px #848484,
+        -28px -28px 76px #ffffff;
+}
+
+.shadowww {
+    border-radius: 41px;
+    background: #e0e0e0;
+    box-shadow: 28px 28px 76px #bebebe,
+        -28px -28px 76px #ffffff;
+}
+.w2{
+    min-width: 40vw;
+    background-image: url("../assets/images/waveimg.png");
+    margin-left: -25px;
+}
+.w1{
+    z-index: 1;
+    min-width: 40vw;
+    margin-top: 15px !important;
+}
+.btn-bl{
+    background-color: rgb(67 47 167);
+    color: white;
+    
+    
+}
+.border-color{
+    border-color: rgb(67 47 167);
+
+}
+::placeholder {
+font-size: large;
+    // color: red !important;
+  }
+  .fs{
+    font-size: 20px
+  }
+  .btn-hover{
+    color: rgb(67 47 167) !important;
+    background-color: transparent !important;
+
+  }
+  .btn-hover2{
+      color: white !important;
+      background-color: rgb(67 47 167) !important;
+
+  }
+  .btn-hover:hover{
+      color: white !important;
+      background-color: rgb(67 47 167) !important;
+    transition: 250ms ease-in-out;
+    border: 2px solid rgb(67 47 167);
+    transform: translateY(-5px);
+    scale: 1.05;
+
+  }
+  .btn-hover2:hover{
+      color: rgb(67 47 167) !important;
+      background-color: white !important;
+    transition: 250ms ease-in-out;
+    border: 2px solid rgb(67 47 167);
+    transform: translateY(-5px);
+    scale: 1.05;
+
+  }
+  .w2-text{
+    margin-left: 19px;
+  }
+
+
+  @media only screen and (max-width: 375px) {
+
+    *{
+
+        font-size: 12px !important;
+        
+    }
+    ::placeholder{
+        font-size: 12px !important;
+
+    }
+    .w1{
+
+        border-bottom: none !important;
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        margin-bottom: 25px !important;
+
+    }
+    .w2{
+        // min-width: none;
+        // margin-left: 18px;
+        margin-left: 0.001px !important;
+        min-height: 20vh !important;
+        margin-top: -40px;
+    }
+    .w2-text{
+        margin-left: -2px;
+    }
+
+  }
+  @media only screen and (max-width: 767px) {
+
+    *{
+
+        font-size: 14px !important;
+        
+    }
+    ::placeholder{
+        font-size: 14px !important;
+
+    }
+    .w1{
+        min-width: 60vw;
+        border-bottom: none !important;
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        margin-bottom: 25px !important;
+    }
+    .w2{
+        min-width: 60vw;
+        // min-width: none;
+        // margin-left: 18px;
+        margin-left: 0.001px !important;
+        min-height: 30vh !important;
+        margin-top: -40px;
+    }
+    .w2-text{
+        margin-left: -2px;
+    }
+
+  }
+
+
+
+
+  @media (min-width: 901.98px) and (max-width: 991.98px) {
+
+
+    *{
+
+        font-size: 17px !important;
+        
+    }
+    ::placeholder{
+        font-size: 17px !important;
+
+    }
+    .w1{
+        min-width: 60vw;
+        border-bottom: none !important;
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        margin-bottom: 25px !important;
+        padding: 28px 0 !important;
+    }
+    .w2{
+        min-width: 60vw;
+        // min-width: none;
+        // margin-left: 18px;
+        margin-left: 0.001px !important;
+        min-height: 30vh !important;
+        margin-top: -40px;
+    }
+    .w2-text{
+        margin-left: -2px;
+    }
+
+
+   }
+
+
+  @media only screen and ( max-width: 1024px) {
+
+    .w1{
+
+        padding: 30px 0 !important;
+        
+    }
+
+  }
+  @media  ( max-width: 1920px) and (min-width: 1300px) {
+
+    .w1{
+        min-width: 30vw;
+        border-bottom: none !important;
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        margin-bottom: 25px !important;
+        min-height: 50vh !important;
+        max-height: 70vh !important;
+        margin-top: 25px !important;
+    }
+    .w2{
+        min-width: 30vw;
+        // min-width: none;
+        // margin-left: 18px;
+        margin-left: -25px !important;
+        min-height: 75vh !important;
+        margin-top: 10px;
+    }
+    .w2-text{
+        margin-left: -2px;
+    }
+
+  }
+
+
+
+
+
